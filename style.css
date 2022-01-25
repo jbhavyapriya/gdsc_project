@@ -1,99 +1,89 @@
+img{
+    align-content: center;
+    border-radius: 50%;
+}
 h1{
+    font-size: large;
     color:blueviolet;
+}
+table{
+font: size 5px;;
+font-family:arial,sans-serif;
+color:black;
 
 }
-
-    img{
-        align-content: center;
-        border-radius: 50%;
-    }
-    h1{
-        font-size: large;
-    }
-    table{
-    font: size 5px;;
-    font-family:arial,sans-serif;
-    color:black;
-    
-    }
-    th{
-        background-color: rgb(197, 192, 192);
-        color: rgb(167, 22, 22);
-    }
-    tr:nth-child(odd) {  
-        background: rgb(197, 192, 192); 
-    }
-   input{
-       color: blue;
+th{
+    background-color: rgb(197, 192, 192);
+    color: rgb(167, 22, 22);
+}
+tr:nth-child(odd) {  
+    background: rgb(197, 192, 192); 
+}
+input{
+    color: blue;
     font-size: 1.5pc;
-   }
-   .button{
-    
-       margin-left: 60pc;
-   }
-   .container{
-       text-align: center;
-   }
-   .centre{
-       margin-left: 45pc;
-       margin-right: auto;
-   }
-   .tblcenter {
+}
+.button{
+
+    margin-left: 60pc;
+}
+.container{
+    text-align: center;
+}
+.centre{
     margin-left: 45pc;
     margin-right: auto;
-   }
-   body{
-       background-color:rgb(204, 218, 156);
-   }
-   .container {
-        width: 100%;
-    }
-    .left20 {
-        width: 20%;
-        float: left;
-    
 }
-.left40 {
-    width: 40%;
-    float: left;
-    
+.tblcenter {
+margin-left: 45pc;
+margin-right: auto;
+}
+body{
+    background-color:rgb(204, 218, 156);
+    background-image: url('images/githubbg.jpg');
+}
+.container {
+    width: 100%;
 }
 .column {
     float: left;
     width: 25%;
     padding: 0 10px;
-  }
-  
-  /* Remove extra left and right margins, due to padding */
-  .row {margin: 0}
-  
-  /* Clear floats after the columns */
-  .row:after {
+}
+.row {margin: 0}
+
+
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* Responsive columns */
-  @media screen and (max-width: 600px) {
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
     .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
     }
-  }
-  
-  /* Style the counter cards */
-  .card {
+}
+
+/* Style the counter cards */
+.card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
     margin: 5px;
     border: lavender 10px dotted;
-  }
-  .flex-container{
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-  }
+    font: size 5px;;
+    font-family:arial,sans-serif;
+    color:black;
+    width: 50%;
+    margin-left: 22pc;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
