@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="
+    X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+    content="width=device-width">
     <title>Git Repos</title>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="index.js"></script>
 </head>
 <body>
-  <img src="images/github.jpg">
-</img>
-  <p id="inputdetails" style="font-size:14px;font-family:arial,sans-serif;color:#202124">Enter github name : 
-  <input type="text" id="username" name="username"></p>
-  <input type="button" id="btn" value="Submit" onclick="invoke_git_api()">
-  <p id="gitrepodetails"></p>
-  
+    <img src="images/github.jpg" class="centre" ></img>
+    <p id="inputdetails" style="font-size:14px;font-family:arial,sans-serif;color:black;text-align: center; font-size: xx-large;">Enter github username : 
+    <input type="text" id="username" name="username"></p>
+    <div class="container">
+      <a href="#"><img src="images/submit.jpeg" id="btn" alt="Submit" width="200" height="50" onclick="invoke_git_api()"></a>
+    <!--input type="button" id="btn" value="Submit" onclick="invoke_git_api()"-->
+    </div>
+    <p id="gitrepodetails"></p>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
