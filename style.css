@@ -41,6 +41,8 @@ margin-right: auto;
 body{
     background-color:rgb(204, 218, 156);
     background-image: url('images/githubbg.jpg');
+    background-size: cover;
+
 }
 .container {
     width: 100%;
